@@ -2,7 +2,7 @@ p
 {
     color:red;
 }
-body
-{
-    background-color: pink;
+.p{
+    color: pink;
+    text-align: center;
 }
