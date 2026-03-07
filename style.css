@@ -1,25 +1,33 @@
-div{
+body
+{
+  text-align: center;
+}
+div
+{
   height: 100px;
   width: 100px;
-  background-color: yellow;
-  border: 2px solid black;
   display: inline-block;
+  border: 2px solid black;
+}
+
+#container
+{
+  width: 800px;
+  height: 200px;
+  display: flex;
 }
 #box1{
-  position: static;
+  background-color: yellow;
 }
-
 #box2{
-  position: relative;
-  top: 10px;
+  background: pink;
 }
-
 #box3{
-  position: fixed;
-  top: 10px;
+  background-color: gray;
 }
-
 #box4{
-  position: sticky;
-  top: 10px;
+  background-color: green;
+}
+#box5{
+  background: red;
 }
