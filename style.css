@@ -1,33 +1,12 @@
-body
-{
-  text-align: center;
-}
-div
-{
+div{
   height: 100px;
   width: 100px;
-  display: inline-block;
+  background-color: aquamarine;
   border: 2px solid black;
-}
+  transform: translatex(20px);
 
-#container
-{
-  width: 800px;
-  height: 200px;
-  display: flex;
 }
-#box1{
-  background-color: yellow;
-}
-#box2{
-  background: pink;
-}
-#box3{
-  background-color: gray;
-}
-#box4{
-  background-color: green;
-}
-#box5{
-  background: red;
+div:hover{
+  background-color: rebeccapurple;
+  color: white;
 }
