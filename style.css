@@ -1,25 +1,18 @@
-#bx1, #bx2{
-    text-align: center;
-    height: 50px;
+.container{
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.box{
+    height: 100px;
     width: 100px;
-    border-radius: 50px;
-    line-height: 50px;
-    margin-left: 50px;
-    display: inline-block;
-    
-}
-#bx1{
+    background-color: orange;
     border: 2px solid red;
-    background-color: aqua;
-    position: relative;
-    top: 20px;
-    left: 30px;
-}
-#bx2{
-     border: 2px solid red;
-    background-color: aqua;
-    position: relative;
-    top: 5px;
-    left: 1px;
-    z-index: 5;
 }
