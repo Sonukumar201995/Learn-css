@@ -1,11 +1,11 @@
 div{
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: red;
 
-    transition: 2s;
+    transition: 1s;
 }
 
 div:hover{
-    background-color: blue;
+    transform: translate(100px, 50px);
 }
