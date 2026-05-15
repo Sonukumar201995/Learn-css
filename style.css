@@ -1,18 +1,11 @@
-.container{
-    height: 400px;
-    border: 2px solid black;
+div{
+    width: 200px;
+    height: 100px;
+    background-color: red;
 
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    gap: 20px;
+    transition: 2s;
 }
 
-.box{
-    height: 100px;
-    width: 100px;
-    background-color: orange;
-    border: 2px solid red;
+div:hover{
+    background-color: blue;
 }
