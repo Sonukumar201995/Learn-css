@@ -1,11 +1,17 @@
 div{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: red;
 
-    transition: 1s;
+    animation: move 2s;
 }
 
-div:hover{
-    transform: translate(100px, 50px);
+@keyframes move{
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
 }
